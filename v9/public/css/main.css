@@ -1,0 +1,55 @@
+body{
+    font-family: Roboto;
+}
+.jumbotron{
+    background-color: #e8e8e8;
+}
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail{
+    padding: 5px 5px;
+    background: #F8F8F8;
+    margin-bottom: 10px;
+}
+
+.thumbnail .caption-full{
+    padding: 9px;
+}
+
+.well{
+    background: #e8e8e8;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+}
+#nav a{
+    color: #fff;
+}
+#nav{
+    margin-bottom: 20px;
+    
+}
+
+#comment{
+    margin-top: -15px;
+}
+
+
+#show{
+    margin-top: 5px;
+}
+
+#delete{
+    display: inline;
+    padding: 10px;
+}
+#map {
+    height:400px;
+    width:100%;
+  }
+
+  #info:hover{
+      background-color: #288cfb;
+      color: #fff;
+  } 
+ 
