@@ -1,0 +1,9 @@
+FROM node:10.16.2
+run mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+COPY package.json /usrsrc/app
+RUN npm cache clean
+RUN npm install
+COPY ./usr/src/app
+EXPOSE 3000
+CMD ["npm", "start"]
